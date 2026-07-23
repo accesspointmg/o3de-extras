@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 #
 
-o3de_gem_setup("SimulationInterfaces")
+o3de_gem_setup()
 
 ly_add_external_target_path(${CMAKE_CURRENT_SOURCE_DIR}/3rdParty)
 

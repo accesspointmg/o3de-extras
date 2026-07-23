@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 
-o3de_gem_setup("ROS2")
+o3de_gem_setup()
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/Code")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} PARENT_SCOPE)

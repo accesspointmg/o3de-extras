@@ -33,7 +33,7 @@ if(NOT COMMAND o3de_gem_setup)
     endmacro()
 endif()
 
-o3de_gem_setup("AudioEngineWwise")
+o3de_gem_setup()
 
 if(TARGET AudioEngineWwise)
     # For backwards compatibility with engines that include AudioEngineWwise

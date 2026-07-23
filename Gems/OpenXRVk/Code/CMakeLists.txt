@@ -8,7 +8,7 @@
 
 # Queries the "gem_name" "version" values from the gem.json file for this gem
 # They are set in the ${gem_name} and ${gem_version} variables
-o3de_gem_setup("${Name}")
+o3de_gem_setup()
 
 o3de_pal_dir(pal_include_dir ${CMAKE_CURRENT_LIST_DIR}/Include/OpenXRVk/Platform/${PAL_PLATFORM_NAME} "${gem_restricted_path}" "${gem_path}" "${gem_parent_relative_path}")
 o3de_pal_dir(pal_source_dir ${CMAKE_CURRENT_LIST_DIR}/Source/Platform/${PAL_PLATFORM_NAME} "${gem_restricted_path}" "${gem_path}" "${gem_parent_relative_path}")
