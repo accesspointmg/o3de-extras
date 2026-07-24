@@ -29,7 +29,7 @@ if(NOT COMMAND o3de_gem_setup)
 
         o3de_restricted_path(${gem_json} gem_restricted_path gem_parent_relative_path)
 
-        o3de_pal_path(${CMAKE_CURRENT_SOURCE_DIR}/Platform/${PAL_PLATFORM_NAME} pal_dir)
+        set(pal_dir ${CMAKE_CURRENT_SOURCE_DIR}/Platform/${PAL_PLATFORM_NAME})
     endmacro()
 endif()
 
