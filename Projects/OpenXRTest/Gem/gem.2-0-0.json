@@ -5,21 +5,22 @@
     "name": "org.o3de.gem.openxrtest",
     "version": "0.0.0",
     "display_name": "OpenXRTest",
-    "description": "A short description of OpenXRTest.",
-    "type": "",
-    "id": "",
-    "copyright_text": ""
+    "description": "A short description of OpenXRTest."
   },
   "origin": {
-    "name": "The name of the originator goes here. i.e. XYZ Inc.",
-    "url": "The primary repo for OpenXRTest goes here: i.e. http://www.mydomain.com"
+    "name": "O3DE Extras",
+    "url": "https://github.com/accesspointmg/o3de-extras"
   },
   "licenses": [
     {
-      "license_identifier": "What license OpenXRTest uses goes here: i.e. Apache-2.0 or MIT",
-      "url": "Link to the license web site goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT",
-      "display_name": "What license OpenXRTest uses goes here: i.e. Apache 2.0 or MIT",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -29,12 +30,7 @@
     "OpenXRTest"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
-  },
-  "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "preview.svg"
   },
   "children": {
     "engines": [],
@@ -61,6 +57,5 @@
     "Mac",
     "iOS",
     "Android"
-  ],
-  "requirements": ""
+  ]
 }

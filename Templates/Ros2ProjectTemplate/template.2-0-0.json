@@ -6,9 +6,7 @@
     "version": "3.0.1",
     "display_name": "ROS2 Project",
     "description": "Template for ROS2 projects.",
-    "type": "project",
-    "id": "",
-    "copyright_text": ""
+    "type": "project"
   },
   "copyFiles": [
     {
@@ -457,123 +455,45 @@
     }
   ],
   "createDirectories": [
-    {
-      "dir": "AssetBundling"
-    },
-    {
-      "dir": "AssetBundling/SeedLists"
-    },
-    {
-      "dir": "Assets"
-    },
-    {
-      "dir": "Config"
-    },
-    {
-      "dir": "Examples"
-    },
-    {
-      "dir": "Examples/slam_navigation"
-    },
-    {
-      "dir": "Examples/slam_navigation/launch"
-    },
-    {
-      "dir": "Examples/slam_navigation/launch/config"
-    },
-    {
-      "dir": "Gem"
-    },
-    {
-      "dir": "Gem/Include"
-    },
-    {
-      "dir": "Gem/Include/${Name}"
-    },
-    {
-      "dir": "Gem/Platform"
-    },
-    {
-      "dir": "Gem/Platform/Android"
-    },
-    {
-      "dir": "Gem/Platform/Linux"
-    },
-    {
-      "dir": "Gem/Platform/Mac"
-    },
-    {
-      "dir": "Gem/Platform/Windows"
-    },
-    {
-      "dir": "Gem/Platform/iOS"
-    },
-    {
-      "dir": "Gem/Registry"
-    },
-    {
-      "dir": "Gem/Source"
-    },
-    {
-      "dir": "Levels"
-    },
-    {
-      "dir": "Levels/DemoLevel"
-    },
-    {
-      "dir": "Platform"
-    },
-    {
-      "dir": "Platform/Android"
-    },
-    {
-      "dir": "Platform/Linux"
-    },
-    {
-      "dir": "Platform/Mac"
-    },
-    {
-      "dir": "Platform/Windows"
-    },
-    {
-      "dir": "Platform/iOS"
-    },
-    {
-      "dir": "Registry"
-    },
-    {
-      "dir": "Resources"
-    },
-    {
-      "dir": "Resources/Platform"
-    },
-    {
-      "dir": "Resources/Platform/Mac"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset"
-    },
-    {
-      "dir": "Resources/Platform/iOS"
-    },
-    {
-      "dir": "Resources/Platform/iOS/Images.xcassets"
-    },
-    {
-      "dir": "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset"
-    },
-    {
-      "dir": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage"
-    },
-    {
-      "dir": "ShaderLib"
-    },
-    {
-      "dir": "cmake"
-    }
+    "AssetBundling",
+    "AssetBundling/SeedLists",
+    "Assets",
+    "Config",
+    "Examples",
+    "Examples/slam_navigation",
+    "Examples/slam_navigation/launch",
+    "Examples/slam_navigation/launch/config",
+    "Gem",
+    "Gem/Include",
+    "Gem/Include/${Name}",
+    "Gem/Platform",
+    "Gem/Platform/Android",
+    "Gem/Platform/Linux",
+    "Gem/Platform/Mac",
+    "Gem/Platform/Windows",
+    "Gem/Platform/iOS",
+    "Gem/Registry",
+    "Gem/Source",
+    "Levels",
+    "Levels/DemoLevel",
+    "Platform",
+    "Platform/Android",
+    "Platform/Linux",
+    "Platform/Mac",
+    "Platform/Windows",
+    "Platform/iOS",
+    "Registry",
+    "Resources",
+    "Resources/Platform",
+    "Resources/Platform/Mac",
+    "Resources/Platform/Mac/Images.xcassets",
+    "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset",
+    "Resources/Platform/iOS",
+    "Resources/Platform/iOS/Images.xcassets",
+    "Resources/Platform/iOS/Images.xcassets/AppIcon.appiconset",
+    "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage",
+    "ShaderLib",
+    "cmake"
   ],
   "origin": {
     "name": "Open 3D Engine Extras",
@@ -581,10 +501,14 @@
   },
   "licenses": [
     {
-      "license_identifier": "https://github.com/o3de/o3de-extras/tree/development/Templates/Ros2ProjectTemplate/Template/LICENSE.txt",
-      "url": "",
-      "display_name": "https://github.com/o3de/o3de extras/tree/development/Templates/Ros2ProjectTemplate/Template/LICENSE.txt",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -596,12 +520,10 @@
     "Ros2ProjectTemplate"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "README.md"
   },
   "children": {
     "engines": [],

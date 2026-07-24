@@ -5,10 +5,7 @@
     "name": "org.o3de.template.ros2fleetrobottemplate",
     "version": "2.2.0",
     "display_name": "ROS2 Fleet Robot",
-    "description": "Template for ROS2 multi-robot project.",
-    "type": "",
-    "id": "",
-    "copyright_text": ""
+    "description": "Template for ROS2 multi-robot project."
   },
   "copyFiles": [
     {
@@ -337,141 +334,51 @@
     }
   ],
   "createDirectories": [
-    {
-      "dir": "AssetBundling"
-    },
-    {
-      "dir": "AssetBundling/SeedLists"
-    },
-    {
-      "dir": "Assets"
-    },
-    {
-      "dir": "Config"
-    },
-    {
-      "dir": "Examples"
-    },
-    {
-      "dir": "Examples/ros2_ws"
-    },
-    {
-      "dir": "Examples/ros2_ws/src"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/config"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/launch"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/maps"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/o3de_fleet_nav"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/params"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/params/humble"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/params/jazzy"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/resource"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/rviz"
-    },
-    {
-      "dir": "Examples/ros2_ws/src/o3de_fleet_nav/test"
-    },
-    {
-      "dir": "Gem"
-    },
-    {
-      "dir": "Gem/Include"
-    },
-    {
-      "dir": "Gem/Include/${Name}"
-    },
-    {
-      "dir": "Gem/Platform"
-    },
-    {
-      "dir": "Gem/Platform/Linux"
-    },
-    {
-      "dir": "Gem/Platform/Mac"
-    },
-    {
-      "dir": "Gem/Platform/Windows"
-    },
-    {
-      "dir": "Gem/Registry"
-    },
-    {
-      "dir": "Gem/Source"
-    },
-    {
-      "dir": "Levels"
-    },
-    {
-      "dir": "Levels/Warehouse"
-    },
-    {
-      "dir": "Platform"
-    },
-    {
-      "dir": "Platform/Android"
-    },
-    {
-      "dir": "Platform/Linux"
-    },
-    {
-      "dir": "Platform/Mac"
-    },
-    {
-      "dir": "Platform/Windows"
-    },
-    {
-      "dir": "Prefabs"
-    },
-    {
-      "dir": "Registry"
-    },
-    {
-      "dir": "Resources"
-    },
-    {
-      "dir": "Resources/Platform"
-    },
-    {
-      "dir": "Resources/Platform/Mac"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset"
-    },
-    {
-      "dir": "ShaderLib"
-    },
-    {
-      "dir": "Shaders"
-    },
-    {
-      "dir": "Shaders/ShaderResourceGroups"
-    },
-    {
-      "dir": "cmake"
-    }
+    "AssetBundling",
+    "AssetBundling/SeedLists",
+    "Assets",
+    "Config",
+    "Examples",
+    "Examples/ros2_ws",
+    "Examples/ros2_ws/src",
+    "Examples/ros2_ws/src/o3de_fleet_nav",
+    "Examples/ros2_ws/src/o3de_fleet_nav/config",
+    "Examples/ros2_ws/src/o3de_fleet_nav/launch",
+    "Examples/ros2_ws/src/o3de_fleet_nav/maps",
+    "Examples/ros2_ws/src/o3de_fleet_nav/o3de_fleet_nav",
+    "Examples/ros2_ws/src/o3de_fleet_nav/params",
+    "Examples/ros2_ws/src/o3de_fleet_nav/params/humble",
+    "Examples/ros2_ws/src/o3de_fleet_nav/params/jazzy",
+    "Examples/ros2_ws/src/o3de_fleet_nav/resource",
+    "Examples/ros2_ws/src/o3de_fleet_nav/rviz",
+    "Examples/ros2_ws/src/o3de_fleet_nav/test",
+    "Gem",
+    "Gem/Include",
+    "Gem/Include/${Name}",
+    "Gem/Platform",
+    "Gem/Platform/Linux",
+    "Gem/Platform/Mac",
+    "Gem/Platform/Windows",
+    "Gem/Registry",
+    "Gem/Source",
+    "Levels",
+    "Levels/Warehouse",
+    "Platform",
+    "Platform/Android",
+    "Platform/Linux",
+    "Platform/Mac",
+    "Platform/Windows",
+    "Prefabs",
+    "Registry",
+    "Resources",
+    "Resources/Platform",
+    "Resources/Platform/Mac",
+    "Resources/Platform/Mac/Images.xcassets",
+    "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset",
+    "ShaderLib",
+    "Shaders",
+    "Shaders/ShaderResourceGroups",
+    "cmake"
   ],
   "origin": {
     "name": "Open 3D Engine Extras",
@@ -479,8 +386,14 @@
   },
   "licenses": [
     {
-      "license_identifier": "Unknown",
-      "display_name": "Unknown"
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -492,12 +405,10 @@
     "Ros2FleetRobotTemplate"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "README.md"
   },
   "children": {
     "engines": [],

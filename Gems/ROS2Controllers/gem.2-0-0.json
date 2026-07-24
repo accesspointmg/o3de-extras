@@ -6,9 +6,7 @@
     "version": "1.1.0",
     "display_name": "ROS2Controllers",
     "description": "Tools and components enabling robot control with ROS 2 communication interfaces",
-    "type": "code",
-    "id": "",
-    "copyright_text": ""
+    "type": "code"
   },
   "origin": {
     "name": "RobotecAI",
@@ -17,9 +15,8 @@
   "licenses": [
     {
       "license_identifier": "Apache-2.0",
-      "url": "https://opensource.org/licenses/Apache-2.0",
-      "display_name": "Apache 2.0",
-      "relative_path": ""
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
     }
   ],
   "canonical_tags": [
@@ -29,11 +26,9 @@
     "ROS2Controllers"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
     "url": "https://docs.o3de.org/docs/user-guide/gems/reference/robotics/ros2/"
   },
   "children": {
@@ -55,7 +50,7 @@
   "dependent": {
     "gems": [
       "org.o3de.gem.physx5>=0.0.0",
-      "ROS2>=4.0.0"
+      "org.o3de.gem.ros2>=4.0.0"
     ]
   },
   "source_control": {

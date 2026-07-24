@@ -6,19 +6,21 @@
     "version": "1.0.2",
     "display_name": "OpenXRTest",
     "description": "A sample project that uses OpenXR.",
-    "type": "",
-    "id": "{947211d5-689a-437f-8ad7-7f558edcd40a}",
-    "copyright_text": ""
+    "id": "947211d5-689a-437f-8ad7-7f558edcd40a"
   },
   "origin": {
     "name": "https://github.com/o3de/o3de-extras"
   },
   "licenses": [
     {
-      "license_identifier": "For terms please see the LICENSE*.TXT files at the root of this distribution.",
-      "url": "",
-      "display_name": "For terms please see the LICENSE*.TXT files at the root of this distribution.",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -28,12 +30,10 @@
     "OpenXRTest"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "README.md"
   },
   "children": {
     "engines": [],
@@ -55,8 +55,8 @@
   },
   "dependent": {
     "gems": [
-      "XR>=1.0.1",
-      "OpenXRVk>=1.0.1"
+      "org.o3de.gem.xr>=1.0.1",
+      "org.o3de.gem.openxrvk>=1.0.1"
     ],
     "engines": [
       "org.o3de.engine.o3de>=1.0.0"

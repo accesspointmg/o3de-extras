@@ -6,9 +6,7 @@
     "version": "1.2.0",
     "display_name": "XR",
     "description": "XR",
-    "type": "code",
-    "id": "",
-    "copyright_text": ""
+    "type": "code"
   },
   "origin": {
     "name": "Open 3D Engine - o3de.org",
@@ -16,10 +14,14 @@
   },
   "licenses": [
     {
-      "license_identifier": "Apache-2.0 Or MIT",
-      "url": "https://github.com/o3de/o3de/blob/development/LICENSE.txt",
-      "display_name": "Apache 2.0 Or MIT",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -27,12 +29,7 @@
   ],
   "user_tags": [],
   "icon": {
-    "relative_path": "",
-    "url": ""
-  },
-  "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "children": {
     "engines": [],
@@ -64,6 +61,5 @@
     "Mac",
     "iOS",
     "Android"
-  ],
-  "requirements": ""
+  ]
 }

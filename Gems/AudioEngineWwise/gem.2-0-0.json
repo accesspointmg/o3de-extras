@@ -6,9 +6,7 @@
     "version": "1.0.0",
     "display_name": "Wwise Audio Engine",
     "description": "The Wwise Audio Engine Gem provides support for Audiokinetic Wave Works Interactive Sound Engine (Wwise).",
-    "type": "code",
-    "id": "",
-    "copyright_text": ""
+    "type": "code"
   },
   "origin": {
     "name": "O3DE Extras",
@@ -16,10 +14,14 @@
   },
   "licenses": [
     {
-      "license_identifier": "Apache-2.0 Or MIT",
-      "url": "https://github.com/o3de/o3de/blob/development/LICENSE.txt",
-      "display_name": "Apache 2.0 Or MIT",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -31,11 +33,9 @@
     "Utility"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
     "url": "https://o3de.org/docs/user-guide/gems/reference/audio/wwise/audio-engine-wwise/"
   },
   "children": {

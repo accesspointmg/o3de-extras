@@ -5,10 +5,7 @@
     "name": "org.o3de.template.multiplayer",
     "version": "2.1.1",
     "display_name": "Multiplayer",
-    "description": "A multiplayer project template. Includes a built in network 3rd person player, player spawner, and network filtering example.",
-    "type": "",
-    "id": "",
-    "copyright_text": ""
+    "description": "A multiplayer project template. Includes a built in network 3rd person player, player spawner, and network filtering example."
   },
   "copyFiles": [
     {
@@ -1293,193 +1290,74 @@
     }
   ],
   "createDirectories": [
-    {
-      "dir": "AssetBundling"
-    },
-    {
-      "dir": "AssetBundling/SeedLists"
-    },
-    {
-      "dir": "Assets"
-    },
-    {
-      "dir": "Assets/Characters"
-    },
-    {
-      "dir": "Assets/Characters/Attachments"
-    },
-    {
-      "dir": "Assets/Characters/Attachments/Laser_Gun"
-    },
-    {
-      "dir": "Assets/Characters/Attachments/Laser_Gun/textures"
-    },
-    {
-      "dir": "Assets/Characters/Mixamo"
-    },
-    {
-      "dir": "Assets/Characters/Mixamo/Animations"
-    },
-    {
-      "dir": "Assets/Characters/Mixamo/Ybot"
-    },
-    {
-      "dir": "Assets/Characters/Mixamo/Ybot/skins"
-    },
-    {
-      "dir": "Assets/Characters/Mixamo/Ybot/test_data"
-    },
-    {
-      "dir": "Assets/Characters/Mixamo/Ybot/textures"
-    },
-    {
-      "dir": "Assets/InputBindings"
-    },
-    {
-      "dir": "Assets/Prefabs"
-    },
-    {
-      "dir": "Assets/UI"
-    },
-    {
-      "dir": "Assets/UI/BasicHUD"
-    },
-    {
-      "dir": "Config"
-    },
-    {
-      "dir": "Gem"
-    },
-    {
-      "dir": "Gem/Include"
-    },
-    {
-      "dir": "Gem/Include/${Name}"
-    },
-    {
-      "dir": "Gem/Platform"
-    },
-    {
-      "dir": "Gem/Platform/Android"
-    },
-    {
-      "dir": "Gem/Platform/Linux"
-    },
-    {
-      "dir": "Gem/Platform/Mac"
-    },
-    {
-      "dir": "Gem/Platform/Windows"
-    },
-    {
-      "dir": "Gem/Platform/iOS"
-    },
-    {
-      "dir": "Gem/Registry"
-    },
-    {
-      "dir": "Gem/Source"
-    },
-    {
-      "dir": "Gem/Source/AutoGen"
-    },
-    {
-      "dir": "Gem/Source/Components"
-    },
-    {
-      "dir": "Gem/Source/Effects"
-    },
-    {
-      "dir": "Gem/Source/Weapons"
-    },
-    {
-      "dir": "Levels"
-    },
-    {
-      "dir": "Levels/DefaultLevel"
-    },
-    {
-      "dir": "Platform"
-    },
-    {
-      "dir": "Platform/Android"
-    },
-    {
-      "dir": "Platform/Linux"
-    },
-    {
-      "dir": "Platform/Mac"
-    },
-    {
-      "dir": "Platform/Windows"
-    },
-    {
-      "dir": "Platform/iOS"
-    },
-    {
-      "dir": "Registry"
-    },
-    {
-      "dir": "Registry/Platform"
-    },
-    {
-      "dir": "Registry/Platform/Android"
-    },
-    {
-      "dir": "Registry/Platform/Linux"
-    },
-    {
-      "dir": "Registry/Platform/Mac"
-    },
-    {
-      "dir": "Registry/Platform/Windows"
-    },
-    {
-      "dir": "Registry/Platform/iOS"
-    },
-    {
-      "dir": "Resources"
-    },
-    {
-      "dir": "Resources/Platform"
-    },
-    {
-      "dir": "Resources/Platform/Mac"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets/${Name}AppIcon.appiconset"
-    },
-    {
-      "dir": "Resources/Platform/iOS"
-    },
-    {
-      "dir": "Resources/Platform/iOS/Images.xcassets"
-    },
-    {
-      "dir": "Resources/Platform/iOS/Images.xcassets/${Name}AppIcon.appiconset"
-    },
-    {
-      "dir": "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage"
-    },
-    {
-      "dir": "ShaderLib"
-    },
-    {
-      "dir": "cmake"
-    }
+    "AssetBundling",
+    "AssetBundling/SeedLists",
+    "Assets",
+    "Assets/Characters",
+    "Assets/Characters/Attachments",
+    "Assets/Characters/Attachments/Laser_Gun",
+    "Assets/Characters/Attachments/Laser_Gun/textures",
+    "Assets/Characters/Mixamo",
+    "Assets/Characters/Mixamo/Animations",
+    "Assets/Characters/Mixamo/Ybot",
+    "Assets/Characters/Mixamo/Ybot/skins",
+    "Assets/Characters/Mixamo/Ybot/test_data",
+    "Assets/Characters/Mixamo/Ybot/textures",
+    "Assets/InputBindings",
+    "Assets/Prefabs",
+    "Assets/UI",
+    "Assets/UI/BasicHUD",
+    "Config",
+    "Gem",
+    "Gem/Include",
+    "Gem/Include/${Name}",
+    "Gem/Platform",
+    "Gem/Platform/Android",
+    "Gem/Platform/Linux",
+    "Gem/Platform/Mac",
+    "Gem/Platform/Windows",
+    "Gem/Platform/iOS",
+    "Gem/Registry",
+    "Gem/Source",
+    "Gem/Source/AutoGen",
+    "Gem/Source/Components",
+    "Gem/Source/Effects",
+    "Gem/Source/Weapons",
+    "Levels",
+    "Levels/DefaultLevel",
+    "Platform",
+    "Platform/Android",
+    "Platform/Linux",
+    "Platform/Mac",
+    "Platform/Windows",
+    "Platform/iOS",
+    "Registry",
+    "Registry/Platform",
+    "Registry/Platform/Android",
+    "Registry/Platform/Linux",
+    "Registry/Platform/Mac",
+    "Registry/Platform/Windows",
+    "Registry/Platform/iOS",
+    "Resources",
+    "Resources/Platform",
+    "Resources/Platform/Mac",
+    "Resources/Platform/Mac/Images.xcassets",
+    "Resources/Platform/Mac/Images.xcassets/${Name}AppIcon.appiconset",
+    "Resources/Platform/iOS",
+    "Resources/Platform/iOS/Images.xcassets",
+    "Resources/Platform/iOS/Images.xcassets/${Name}AppIcon.appiconset",
+    "Resources/Platform/iOS/Images.xcassets/LaunchImage.launchimage",
+    "ShaderLib",
+    "cmake"
   ],
   "origin": {
     "name": "Open 3D Engine - o3de.org"
   },
   "licenses": [
     {
-      "license_identifier": "https://opensource.org/licenses/MIT",
-      "url": "",
-      "display_name": "https://opensource.org/licenses/MIT",
-      "relative_path": ""
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -1489,12 +1367,7 @@
     "Multiplayer"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
-  },
-  "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "children": {
     "engines": [],

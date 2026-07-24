@@ -6,20 +6,22 @@
     "version": "1.0.1",
     "display_name": "MachineLearning",
     "description": "A short description of this Gem",
-    "type": "code",
-    "id": "",
-    "copyright_text": ""
+    "type": "code"
   },
   "origin": {
     "name": "The name of the originator or creator",
-    "url": "The website for this Gem"
+    "url": "https://github.com/accesspointmg/o3de-extras"
   },
   "licenses": [
     {
-      "license_identifier": "License used i.e. Apache-2.0 or MIT",
-      "url": "Link to the license web site i.e. https://opensource.org/licenses/Apache-2.0",
-      "display_name": "License used i.e. Apache 2.0 or MIT",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -29,13 +31,9 @@
     "MachineLearning"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
-  "documentation": {
-    "relative_path": "",
-    "url": "Link to any documentation of your Gem"
-  },
+  "documentation": {},
   "children": {
     "engines": [],
     "projects": [],
@@ -59,9 +57,6 @@
     {
       "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/machinelearning-1.0.1-gem.zip"
     }
-  ],
-  "platforms": [
-    ""
   ],
   "requirements": "Notice of any requirements for this Gem i.e. This requires X other gem"
 }

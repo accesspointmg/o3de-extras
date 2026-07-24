@@ -5,10 +5,7 @@
     "name": "org.o3de.template.ros2roboticmanipulationtemplate",
     "version": "2.1.2",
     "display_name": "ROS2 Robotic Manipulation",
-    "description": "A manipulation template for ROS2",
-    "type": "",
-    "id": "",
-    "copyright_text": ""
+    "description": "A manipulation template for ROS2"
   },
   "copyFiles": [
     {
@@ -97,7 +94,7 @@
     },
     {
       "file": "Assets/Room/Textures/Desk/Room_M_Desk_Height.png",
-      "isTemplated": "false"
+      "isTemplated": false
     },
     {
       "file": "Assets/Room/Textures/Desk/Room_M_Desk_Metallic.png",
@@ -121,7 +118,7 @@
     },
     {
       "file": "Assets/Room/Textures/Floor/plane_divided_DefaultMaterial_Height.png",
-      "isTemplated": "false"
+      "isTemplated": false
     },
     {
       "file": "Assets/Room/Textures/Floor/plane_divided_DefaultMaterial_Metallic.png",
@@ -405,148 +402,64 @@
     }
   ],
   "createDirectories": [
-    {
-      "dir": "AssetBundling"
-    },
-    {
-      "dir": "AssetBundling/AssetLists"
-    },
-    {
-      "dir": "AssetBundling/BundleSettings"
-    },
-    {
-      "dir": "AssetBundling/Bundles"
-    },
-    {
-      "dir": "AssetBundling/Rules"
-    },
-    {
-      "dir": "AssetBundling/SeedLists"
-    },
-    {
-      "dir": "Assets"
-    },
-    {
-      "dir": "Assets/BoxToyPuzzle"
-    },
-    {
-      "dir": "Assets/BoxToyPuzzle/texture"
-    },
-    {
-      "dir": "Assets/BoxToyPuzzle/texture/Roughness"
-    },
-    {
-      "dir": "Assets/Room"
-    },
-    {
-      "dir": "Assets/Room/Textures"
-    },
-    {
-      "dir": "Assets/Room/Textures/Desk"
-    },
-    {
-      "dir": "Assets/Room/Textures/Floor"
-    },
-    {
-      "dir": "Assets/Room/Textures/Walls"
-    },
-    {
-      "dir": "Config"
-    },
-    {
-      "dir": "DiffuseProbeGrids"
-    },
-    {
-      "dir": "Examples"
-    },
-    {
-      "dir": "Gem"
-    },
-    {
-      "dir": "Gem/Include"
-    },
-    {
-      "dir": "Gem/Include/${Name}"
-    },
-    {
-      "dir": "Gem/Platform"
-    },
-    {
-      "dir": "Gem/Platform/Linux"
-    },
-    {
-      "dir": "Gem/Platform/Mac"
-    },
-    {
-      "dir": "Gem/Platform/Windows"
-    },
-    {
-      "dir": "Gem/Registry"
-    },
-    {
-      "dir": "Gem/Source"
-    },
-    {
-      "dir": "Levels"
-    },
-    {
-      "dir": "Levels/RoboticManipulation"
-    },
-    {
-      "dir": "Platform"
-    },
-    {
-      "dir": "Platform/Android"
-    },
-    {
-      "dir": "Platform/Linux"
-    },
-    {
-      "dir": "Platform/Mac"
-    },
-    {
-      "dir": "Platform/Windows"
-    },
-    {
-      "dir": "Registry"
-    },
-    {
-      "dir": "Resources"
-    },
-    {
-      "dir": "Resources/Platform"
-    },
-    {
-      "dir": "Resources/Platform/Mac"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets"
-    },
-    {
-      "dir": "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset"
-    },
-    {
-      "dir": "ShaderLib"
-    },
-    {
-      "dir": "Shaders"
-    },
-    {
-      "dir": "Shaders/ShaderResourceGroups"
-    },
-    {
-      "dir": "cmake"
-    }
+    "AssetBundling",
+    "AssetBundling/AssetLists",
+    "AssetBundling/BundleSettings",
+    "AssetBundling/Bundles",
+    "AssetBundling/Rules",
+    "AssetBundling/SeedLists",
+    "Assets",
+    "Assets/BoxToyPuzzle",
+    "Assets/BoxToyPuzzle/texture",
+    "Assets/BoxToyPuzzle/texture/Roughness",
+    "Assets/Room",
+    "Assets/Room/Textures",
+    "Assets/Room/Textures/Desk",
+    "Assets/Room/Textures/Floor",
+    "Assets/Room/Textures/Walls",
+    "Config",
+    "DiffuseProbeGrids",
+    "Examples",
+    "Gem",
+    "Gem/Include",
+    "Gem/Include/${Name}",
+    "Gem/Platform",
+    "Gem/Platform/Linux",
+    "Gem/Platform/Mac",
+    "Gem/Platform/Windows",
+    "Gem/Registry",
+    "Gem/Source",
+    "Levels",
+    "Levels/RoboticManipulation",
+    "Platform",
+    "Platform/Android",
+    "Platform/Linux",
+    "Platform/Mac",
+    "Platform/Windows",
+    "Registry",
+    "Resources",
+    "Resources/Platform",
+    "Resources/Platform/Mac",
+    "Resources/Platform/Mac/Images.xcassets",
+    "Resources/Platform/Mac/Images.xcassets/AppIcon.appiconset",
+    "ShaderLib",
+    "Shaders",
+    "Shaders/ShaderResourceGroups",
+    "cmake"
   ],
   "origin": {
     "name": "https://github.com/o3de/o3de-extras"
   },
   "licenses": [
     {
-      "license_identifier": "https://github.com/o3de/o3de-extras/tree/development/Templates/Ros2RoboticManipulationTemplate/Template/LICENSE.txt",
-      "url": "",
-      "display_name": "https://github.com/o3de/o3de extras/tree/development/Templates/Ros2RoboticManipulationTemplate/Template/LICENSE.txt",
-      "relative_path": ""
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT"
     }
   ],
   "canonical_tags": [
@@ -559,12 +472,10 @@
     "Move it2"
   ],
   "icon": {
-    "relative_path": "preview.png",
-    "url": ""
+    "relative_path": "preview.png"
   },
   "documentation": {
-    "relative_path": "",
-    "url": ""
+    "relative_path": "README.md"
   },
   "children": {
     "engines": [],
