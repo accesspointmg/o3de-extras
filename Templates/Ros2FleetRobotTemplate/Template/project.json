@@ -17,7 +17,6 @@
     "external_subdirectories": [
         "Gem"
     ],
-    "restricted": "${Name}",
     "engine_version": "2.3.0",
     "gem_names": [
         "Atom",

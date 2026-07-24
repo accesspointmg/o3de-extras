@@ -108,7 +108,6 @@ scripts\o3de.bat register --all-engines-path <o3de-extras>/Engines
 scripts\o3de.bat register --all-projects-path <o3de-extras>/Projects
 scripts\o3de.bat register --all-gems-path <o3de-extras>/Gems
 scripts\o3de.bat register --all-templates-path <o3de-extras>/Templates
-scripts\o3de.bat register --all-restricted-path <o3de-extras>/Restricted
 ```
 If we registered a gem, which is a piece of a project like a plugin, and we want to use that gem in our project we would only have to tell O3DE to enable that gem for our project by using the `o3de enable-gem` command:
 ```

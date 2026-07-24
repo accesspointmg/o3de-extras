@@ -227,19 +227,6 @@ def generate_game_wwise_config(project_path):
         json_data['platformMaps'].append(file_data)
         print(f'Added {p} data')
 
-    # now attempt to find the restricted platforms
-    engine_root = os.path.normpath(os.path.join(current_dir, '../../../..'))
-    restricted_root = os.path.join(engine_root, 'restricted')
-    if os.path.exists(restricted_root):
-        path_to = os.path.relpath(current_dir, engine_root)
-        for restricted_platform in os.listdir(restricted_root):
-            resticted_path = os.path.join(restricted_root, restricted_platform, path_to)
-            if os.path.exists(resticted_path): 
-                file = os.path.join(resticted_path, f'wwise_config_{restricted_platform.lower()}.json')
-                file_data = parse_json_file(file)
-                json_data['platformMaps'].append(file_data)
-                print(f'Added {restricted_platform} data')
-
     # Update the data with Wwise bank paths that have been found...
     for info in project_platforms.values():
         # Only need to update for platforms that have dir_name set...

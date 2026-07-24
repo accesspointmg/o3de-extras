@@ -28,6 +28,5 @@
     "source_control_uri": "https://github.com/o3de/o3de-extras/development/Gems/ROS2Controllers",
     "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2controllers-1.1.0-gem.zip",
     "compatible_engines": [],
-    "engine_api_dependencies": [],
-    "restricted": "ROS2Controllers"
+    "engine_api_dependencies": []
 }

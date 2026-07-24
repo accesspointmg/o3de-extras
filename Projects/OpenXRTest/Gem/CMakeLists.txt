@@ -1,14 +1,10 @@
 
 set(gem_path ${CMAKE_CURRENT_LIST_DIR})
 set(gem_json ${gem_path}/gem.json)
-o3de_restricted_path(${gem_json} gem_restricted_path gem_parent_relative_path)
 
 # Currently we are in the OpenXRTest/Code folder: ${CMAKE_CURRENT_LIST_DIR}
 # Get the platform specific folder ${pal_dir} for the current folder: ${CMAKE_CURRENT_LIST_DIR}/Platform/${PAL_PLATFORM_NAME}
-# Note: o3de_pal_dir will take care of the details for us, as this may be a restricted platform
-#       in which case it will see if that platform is present here or in the restricted folder.
 #       i.e. It could here : OpenXRTest/Code/Platform/<platform_name>  or
-#            <restricted_folder>/<platform_name>/OpenXRTest/Code
 set(pal_dir ${CMAKE_CURRENT_LIST_DIR}/Platform/${PAL_PLATFORM_NAME})
 
 # Now that we have the platform abstraction layer (PAL) folder for this folder, thats where we will find the

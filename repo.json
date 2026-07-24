@@ -116,7 +116,6 @@
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "ProteusRobot",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/proteusrobot-1.0.0-gem.zip",
             "sha256": "ae3f973f061d1b8d52e3ced34dd9862ee48b64be4eebaebb4a585674a97e8b91",
             "versions_data": [
@@ -187,7 +186,6 @@
                 "PhysX",
                 "StartingPointInput"
             ],
-            "restricted": "ROS2",
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
             "versions_data": [
                 {
@@ -488,7 +486,6 @@
                 "ROS2"
             ],
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
-            "restricted": "",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/rosrobotsample-1.0.0-gem.zip",
             "version": "1.0.0",
             "sha256": "6df46fcd9fff1eaff025fce708a5ca89c178ea001056bae82cc30bb2f3a09a53",
@@ -573,7 +570,6 @@
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "",
             "version": "1.0.0",
             "sha256": "c7844c1a97141d3b6a183a744b0a123a5802b400c2cac75c746b5ccd664538bb",
             "versions_data": [
@@ -662,7 +658,6 @@
             "documentation_url": "",
             "dependencies": [],
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
-            "restricted": "",
             "sha256": "8653a144cd19906ed096f0056263e0f8adce17aec13cd254c8227386ac54ae24",
             "versions_data": [
                 {
@@ -783,7 +778,6 @@
                 "ROS2>=2.3.0"
             ],
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
-            "restricted": "WarehouseAutomation",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/warehouseautomation-1.1.0-gem.zip",
             "sha256": "21dad916ebb07232d901bbdc80ba376369e3ce4e580dcbae7d69132558357eb8",
             "versions_data": [
@@ -836,7 +830,6 @@
                 "o3de>=2.4.0"
             ],
             "engine_api_dependencies": [],
-            "restricted": "LevelGeoreferencing",
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/levelgeoreferencing-1.0.0-gem.zip",
             "sha256": "3e77d7708dfbb6d383d7aadd77e98e4def4c2e3f14171c098840d4761dc6da50"
@@ -867,7 +860,6 @@
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "MachineLearning",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/machinelearning-1.0.1-gem.zip",
             "sha256": "af7c7eac3f95379677660eee826b4bce6f8232fa18cfec3572978ed374a92717"
         },
@@ -902,7 +894,6 @@
                 "o3de>=2.3.0"
             ],
             "engine_api_dependencies": [],
-            "restricted": "ROS2SampleRobots",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2samplerobots-1.0.0-gem.zip",
             "sha256": "f1dbabfd0f51969c4d105285e67113d4bd8d3d43d6294b5dc68bfde656c9b274",
             "versions_data": [
@@ -963,7 +954,6 @@
             ],
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "SimulationInterfaces",
             "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/simulationinterfaces-1.0.0-gem.zip",
             "sha256": "d13ecb0e22aa50b74abb241a615d9026cad739c1522fe94e456ea5b94d9bbd06",
@@ -1051,7 +1041,6 @@
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2controllers-1.0.0-gem.zip",
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "ROS2Controllers",
             "sha256": "b6029ff58c0da1561d9a8585147516fe9dcf0330783630df013d5f712e61574b",
             "versions_data": [
                 {
@@ -1100,7 +1089,6 @@
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2robotimporter-1.0.0-gem.zip",
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "ROS2RobotImporter",
             "sha256": "8b668fe7a0f88c9cca2a02a77827de1c68131a75b559323ce29714ad116fc1ae",
             "versions_data": [
                 {
@@ -1144,7 +1132,6 @@
             "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2sensors-1.0.0-gem.zip",
             "compatible_engines": [],
             "engine_api_dependencies": [],
-            "restricted": "ROS2Sensors",
             "sha256": "ee3a5ed1c4913ca5be2bb756983f08192afd8aaca0f3ad8ce9beaa94f679468b",
             "versions_data": [
                 {

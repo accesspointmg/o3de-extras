@@ -31,6 +31,5 @@
         "o3de>=2.3.0"
     ],
     "engine_api_dependencies": [],
-    "restricted": "ROS2SampleRobots",
     "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2samplerobots-1.2.0-gem.zip"
 }

@@ -29,7 +29,6 @@
         "o3de>=2.4.0"
     ],
     "engine_api_dependencies": [],
-    "restricted": "ROS2",
     "repo_uri": "https://raw.githubusercontent.com/o3de/o3de-extras/development",
     "download_source_uri": "https://github.com/o3de/o3de-extras/releases/download/2.0/ros2-4.2.0-gem.zip"
 }

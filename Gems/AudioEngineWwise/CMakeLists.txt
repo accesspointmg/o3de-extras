@@ -27,8 +27,6 @@ if(NOT COMMAND o3de_gem_setup)
         set(gem_version, "0.0.0")
         o3de_read_json_key(gem_version ${gem_json} "version")
 
-        o3de_restricted_path(${gem_json} gem_restricted_path gem_parent_relative_path)
-
         set(pal_dir ${CMAKE_CURRENT_SOURCE_DIR}/Platform/${PAL_PLATFORM_NAME})
     endmacro()
 endif()
