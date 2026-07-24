@@ -2,28 +2,24 @@
   "$schemaVersion": "2.0.0",
   "$schema": "https://canonical.o3de.org/o3de-repo-2.0.0.json",
   "repo": {
-    "name": "org.o3de.repo.o3de extras",
+    "name": "org.o3de.repo.extras",
     "version": "0.0.0",
     "display_name": "O3DE Extras",
-    "description": "A repository to hold various gems, projects, and templates for the O3DE engine.",
-    "type": "",
-    "id": "",
-    "copyright_text": ""
+    "description": "A repository to hold various gems, projects, and templates for the O3DE engine."
   },
   "origin": {
-    "name": "o3de-extras"
+    "name": "O3DE Extras",
+    "url": "https://github.com/accesspointmg/o3de-extras"
   },
   "licenses": [
     {
       "license_identifier": "Apache-2.0",
-      "url": "https://spdx.org/licenses/Apache-2.0.html",
-      "display_name": "Apache 2.0",
+      "display_name": "Apache License 2.0",
       "relative_path": "LICENSE_APACHE2.TXT"
     },
     {
       "license_identifier": "MIT",
-      "url": "https://spdx.org/licenses/MIT.html",
-      "display_name": "MIT",
+      "display_name": "MIT License",
       "relative_path": "LICENSE_MIT.TXT"
     }
   ],
@@ -31,31 +27,68 @@
     "Repo"
   ],
   "user_tags": [],
-  "icon": {
-    "relative_path": "",
-    "url": ""
-  },
-  "documentation": {
-    "relative_path": "",
-    "url": ""
-  },
   "children": {
     "engines": [],
-    "projects": [],
-    "gems": [],
-    "templates": [],
+    "projects": [
+      "Projects/OpenXRTest/project.json"
+    ],
+    "gems": [
+      "Gems/AudioEngineWwise/gem.json",
+      "Gems/AzQtComponentsForPython/gem.json",
+      "Gems/ExternalProfilers/OptickProfiler/gem.json",
+      "Gems/ExternalProfilers/SuperluminalProfiler/gem.json",
+      "Gems/ExternalProfilers/TracyProfiler/gem.json",
+      "Gems/LevelGeoreferencing/gem.json",
+      "Gems/MachineLearning/gem.json",
+      "Gems/OpenXRVk/gem.json",
+      "Gems/ROS2/gem.json",
+      "Gems/ROS2Controllers/gem.json",
+      "Gems/ROS2RobotImporter/gem.json",
+      "Gems/ROS2SampleRobots/gem.json",
+      "Gems/ROS2Sensors/gem.json",
+      "Gems/SimulationInterfaces/gem.json",
+      "Gems/WarehouseAssets/gem.json",
+      "Gems/WarehouseAutomation/gem.json",
+      "Gems/XR/gem.json"
+    ],
+    "templates": [
+      "Templates/Multiplayer/template.json",
+      "Templates/Ros2FleetRobotTemplate/template.json",
+      "Templates/Ros2ProjectTemplate/template.json",
+      "Templates/Ros2RoboticManipulationTemplate/template.json"
+    ],
     "repos": [],
     "overlays": []
   },
   "remote": {
     "engines": [],
-    "projects": [],
-    "gems": [],
+    "projects": [
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Projects/OpenXRTest/project.2-0-0.json"
+    ],
+    "gems": [
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/AudioEngineWwise/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/AzQtComponentsForPython/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ExternalProfilers/OptickProfiler/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ExternalProfilers/SuperluminalProfiler/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ExternalProfilers/TracyProfiler/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/LevelGeoreferencing/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/MachineLearning/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/OpenXRVk/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ROS2/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ROS2Controllers/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ROS2RobotImporter/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ROS2SampleRobots/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/ROS2Sensors/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/SimulationInterfaces/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/WarehouseAssets/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/WarehouseAutomation/gem.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Gems/XR/gem.2-0-0.json"
+    ],
     "templates": [
-      "https://github.com/o3de/o3de-extras.git/Templates/Multiplayer",
-      "https://github.com/o3de/o3de-extras.git/Templates/Ros2FleetRobotTemplate",
-      "https://github.com/o3de/o3de-extras.git/Templates/Ros2ProjectTemplate",
-      "https://github.com/o3de/o3de-extras.git/Templates/Ros2RoboticManipulationTemplate"
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Templates/Multiplayer/template.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Templates/Ros2FleetRobotTemplate/template.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Templates/Ros2ProjectTemplate/template.2-0-0.json",
+      "https://raw.githubusercontent.com/accesspointmg/o3de-extras/2.0.0/Templates/Ros2RoboticManipulationTemplate/template.2-0-0.json"
     ],
     "repos": [],
     "overlays": []
