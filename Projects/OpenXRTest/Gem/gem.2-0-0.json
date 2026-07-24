@@ -1,0 +1,66 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-gem-2.0.0.json",
+  "gem": {
+    "name": "org.o3de.gem.openxrtest",
+    "version": "0.0.0",
+    "display_name": "OpenXRTest",
+    "description": "A short description of OpenXRTest.",
+    "type": "",
+    "id": "",
+    "copyright_text": ""
+  },
+  "origin": {
+    "name": "The name of the originator goes here. i.e. XYZ Inc.",
+    "url": "The primary repo for OpenXRTest goes here: i.e. http://www.mydomain.com"
+  },
+  "licenses": [
+    {
+      "license_identifier": "What license OpenXRTest uses goes here: i.e. Apache-2.0 or MIT",
+      "url": "Link to the license web site goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT",
+      "display_name": "What license OpenXRTest uses goes here: i.e. Apache 2.0 or MIT",
+      "relative_path": ""
+    }
+  ],
+  "canonical_tags": [
+    "Gem"
+  ],
+  "user_tags": [
+    "OpenXRTest"
+  ],
+  "icon": {
+    "relative_path": "preview.png",
+    "url": ""
+  },
+  "documentation": {
+    "relative_path": "",
+    "url": ""
+  },
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "dependent": {
+    "gems": []
+  },
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Mac",
+    "iOS",
+    "Android"
+  ],
+  "requirements": ""
+}

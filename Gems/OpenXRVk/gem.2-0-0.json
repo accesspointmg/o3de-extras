@@ -1,0 +1,69 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-gem-2.0.0.json",
+  "gem": {
+    "name": "org.o3de.gem.openxrvk",
+    "version": "1.3.0",
+    "display_name": "OpenXR Vulkan",
+    "description": "OpenXR Vulkan for Atom",
+    "type": "code",
+    "id": "",
+    "copyright_text": ""
+  },
+  "origin": {
+    "name": "Open 3D Engine - o3de.org",
+    "url": "https://github.com/o3de/o3de"
+  },
+  "licenses": [
+    {
+      "license_identifier": "Apache-2.0 Or MIT",
+      "url": "https://github.com/o3de/o3de/blob/development/LICENSE.txt",
+      "display_name": "Apache 2.0 Or MIT",
+      "relative_path": ""
+    }
+  ],
+  "canonical_tags": [
+    "Gem"
+  ],
+  "user_tags": [],
+  "icon": {
+    "relative_path": "",
+    "url": ""
+  },
+  "documentation": {
+    "relative_path": "",
+    "url": ""
+  },
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "dependent": {
+    "gems": []
+  },
+  "downloads": [
+    {
+      "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/openxrvk-1.3.0-gem.zip"
+    }
+  ],
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Mac",
+    "iOS",
+    "Android"
+  ],
+  "requirements": ""
+}

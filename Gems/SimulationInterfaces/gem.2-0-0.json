@@ -1,0 +1,72 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-gem-2.0.0.json",
+  "gem": {
+    "name": "org.o3de.gem.simulationinterfaces",
+    "version": "2.2.0",
+    "display_name": "SimulationInterfaces",
+    "description": "This gem provides ROS 2 and C++ API for simulation interfaces.",
+    "type": "code",
+    "id": "",
+    "copyright_text": ""
+  },
+  "origin": {
+    "name": "RobotecAI",
+    "url": "https://robotec.ai"
+  },
+  "licenses": [
+    {
+      "license_identifier": "Apache-2.0 ",
+      "url": "https://opensource.org/licenses/Apache-2.0",
+      "display_name": "Apache 2.0 ",
+      "relative_path": ""
+    }
+  ],
+  "canonical_tags": [
+    "Gem"
+  ],
+  "user_tags": [
+    "ROS 2",
+    "ROS2",
+    "SimulationInterfaces"
+  ],
+  "icon": {
+    "relative_path": "preview.png",
+    "url": ""
+  },
+  "documentation": {
+    "relative_path": "",
+    "url": "https://www.docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/"
+  },
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "dependent": {
+    "gems": [
+      "ROS2>=4.1.0",
+      "org.o3de.gem.debugdraw>=0.0.0"
+    ]
+  },
+  "downloads": [
+    {
+      "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/simulationinterfaces-2.2.0-gem.zip"
+    }
+  ],
+  "platforms": [
+    ""
+  ],
+  "requirements": "Requires ROS 2 Gem and SimulationInterfaces package installed and sourced."
+}

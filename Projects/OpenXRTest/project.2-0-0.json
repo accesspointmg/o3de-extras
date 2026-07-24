@@ -1,0 +1,77 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-project-2.0.0.json",
+  "project": {
+    "name": "org.o3de.project.openxrtest",
+    "version": "1.0.2",
+    "display_name": "OpenXRTest",
+    "description": "A sample project that uses OpenXR.",
+    "type": "",
+    "id": "{947211d5-689a-437f-8ad7-7f558edcd40a}",
+    "copyright_text": ""
+  },
+  "origin": {
+    "name": "https://github.com/o3de/o3de-extras"
+  },
+  "licenses": [
+    {
+      "license_identifier": "For terms please see the LICENSE*.TXT files at the root of this distribution.",
+      "url": "",
+      "display_name": "For terms please see the LICENSE*.TXT files at the root of this distribution.",
+      "relative_path": ""
+    }
+  ],
+  "canonical_tags": [
+    "Project"
+  ],
+  "user_tags": [
+    "OpenXRTest"
+  ],
+  "icon": {
+    "relative_path": "preview.png",
+    "url": ""
+  },
+  "documentation": {
+    "relative_path": "",
+    "url": ""
+  },
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [
+      "Gem/gem.json"
+    ],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "dependent": {
+    "gems": [
+      "XR>=1.0.1",
+      "OpenXRVk>=1.0.1"
+    ],
+    "engines": [
+      "org.o3de.engine.o3de>=1.0.0"
+    ]
+  },
+  "downloads": [
+    {
+      "source": "https://github.com/o3de/o3de-extras/releases/download/2.0/openxrtest-1.0.1-project.zip"
+    }
+  ],
+  "platforms": [
+    "Windows",
+    "Linux",
+    "Mac",
+    "iOS",
+    "Android"
+  ]
+}

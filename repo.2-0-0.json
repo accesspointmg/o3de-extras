@@ -1,0 +1,63 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-repo-2.0.0.json",
+  "repo": {
+    "name": "org.o3de.repo.o3de extras",
+    "version": "0.0.0",
+    "display_name": "O3DE Extras",
+    "description": "A repository to hold various gems, projects, and templates for the O3DE engine.",
+    "type": "",
+    "id": "",
+    "copyright_text": ""
+  },
+  "origin": {
+    "name": "o3de-extras"
+  },
+  "licenses": [
+    {
+      "license_identifier": "Apache-2.0",
+      "url": "https://spdx.org/licenses/Apache-2.0.html",
+      "display_name": "Apache 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT"
+    },
+    {
+      "license_identifier": "MIT",
+      "url": "https://spdx.org/licenses/MIT.html",
+      "display_name": "MIT",
+      "relative_path": "LICENSE_MIT.TXT"
+    }
+  ],
+  "canonical_tags": [
+    "Repo"
+  ],
+  "user_tags": [],
+  "icon": {
+    "relative_path": "",
+    "url": ""
+  },
+  "documentation": {
+    "relative_path": "",
+    "url": ""
+  },
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [
+      "https://github.com/o3de/o3de-extras.git/Templates/Multiplayer",
+      "https://github.com/o3de/o3de-extras.git/Templates/Ros2FleetRobotTemplate",
+      "https://github.com/o3de/o3de-extras.git/Templates/Ros2ProjectTemplate",
+      "https://github.com/o3de/o3de-extras.git/Templates/Ros2RoboticManipulationTemplate"
+    ],
+    "repos": [],
+    "overlays": []
+  }
+}
