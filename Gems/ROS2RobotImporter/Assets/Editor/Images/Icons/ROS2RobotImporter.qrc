@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/ROS2RobotImporter">
-     <file>ToolbarIcon.svg</file>
-    </qresource>
-</RCC>

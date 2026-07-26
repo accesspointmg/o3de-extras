@@ -29,31 +29,9 @@
   "user_tags": [],
   "children": {
     "engines": [],
-    "projects": [
-      "Projects/OpenXRTest/project.json"
-    ],
-    "gems": [
-      "Gems/AudioEngineWwise/gem.json",
-      "Gems/AzQtComponentsForPython/gem.json",
-      "Gems/LevelGeoreferencing/gem.json",
-      "Gems/MachineLearning/gem.json",
-      "Gems/OpenXRVk/gem.json",
-      "Gems/ROS2/gem.json",
-      "Gems/ROS2Controllers/gem.json",
-      "Gems/ROS2RobotImporter/gem.json",
-      "Gems/ROS2SampleRobots/gem.json",
-      "Gems/ROS2Sensors/gem.json",
-      "Gems/SimulationInterfaces/gem.json",
-      "Gems/WarehouseAssets/gem.json",
-      "Gems/WarehouseAutomation/gem.json",
-      "Gems/XR/gem.json"
-    ],
-    "templates": [
-      "Templates/Multiplayer/template.json",
-      "Templates/Ros2FleetRobotTemplate/template.json",
-      "Templates/Ros2ProjectTemplate/template.json",
-      "Templates/Ros2RoboticManipulationTemplate/template.json"
-    ],
+    "projects": [],
+    "gems": [],
+    "templates": [],
     "repos": [],
     "overlays": []
   },
