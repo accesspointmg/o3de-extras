@@ -35,7 +35,6 @@
     "gems": [
       "Gems/AudioEngineWwise/gem.json",
       "Gems/AzQtComponentsForPython/gem.json",
-      "Gems/ExternalProfilers/TracyProfiler/gem.json",
       "Gems/LevelGeoreferencing/gem.json",
       "Gems/MachineLearning/gem.json",
       "Gems/OpenXRVk/gem.json",
